@@ -1,0 +1,137 @@
+.containerInicio{
+    display: flex;
+}
+
+.fitnessOnline{
+    width: 164.21px;
+    height: 20px;
+    top: 20px;
+    left: 40px;
+}
+
+.containerMorado {
+    background-color: #7036BA;
+    width: 100%;
+
+}
+
+.containerFoto {
+    background-image: url(../img/pesoMuerto.jpg);
+    width: 100%;
+    height: 889px;
+    left: 758px;    
+
+}
+
+.botonTraining {
+    background-color: #00BFB4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+
+.contenedorBoton {
+    align-items: center; 
+}
+
+
+.aboutUs {
+    text-align: center; 
+    .cordones {
+        width: 540px;
+        height: 324px;  
+    }
+}
+
+.howtostart {
+    background-color: #7036BA;
+    width: 100%;
+    height: 480px;
+    padding: 50px 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.intro {
+    font-size: 18px;
+    max-width: 800px;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.step {
+    text-align: left;
+    width: 250px;
+    position: relative;
+    font-size: 16px
+}
+
+.step-number {
+    background-color: white;
+    color: #7036BA;
+    font-size: 24px;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+
+.features {
+    text-align: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.features h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.feature {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+.feature img {
+    width: 70px;
+    height: 73.64px;
+    
+}
+
+.feature h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 14px;
+    color: #555;
+}
+
+
+.btn:hover {
+    background-color: #009C8F;
+}
